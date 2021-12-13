@@ -1,0 +1,105 @@
+
+
+a {
+    text-decoration: none;
+}
+
+
+/*
+linear-gradient es para hacer un color gradiente, o sea combinar dos colores, con lo cual ponemos este
+gradiente encima de la imagen que usamos en el hero
+*/
+.hero {
+    background: linear-gradient(rgba(9, 5, 68, 0.8), rgba(5, 66, 77, 0.8)), url("imgs/reasons-to-keep-reading-books-relate-to-others.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 30px;
+}
+
+.section-1 img {
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(54, 104, 241);
+}
+
+
+
+/*
+estilos para las secciones de cada libro
+first-letter pseudo elemento, con el cual se selecciona la primera letra del elemento al que le ponemos este pseudo elemento
+en este caso cada texto sobre los libros, asi le podemos dar estilo solamente a la primera letra.
+*/
+.section-3 img {
+    border-radius: 10px;
+    box-shadow: -10px -10px rgb(211, 99, 35);
+}
+
+.section-3 p::first-letter {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 32);
+}
+
+.section-4 img {
+    border-radius: 10px;
+    box-shadow: -10px 10px rgb(211, 41, 35);
+}
+
+.section-4 p::first-letter {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 32);
+}
+
+.section-5 img {
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(170, 35, 211);
+}
+
+.section-5 p::first-letter {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 32);
+}
+
+.section-6 img {
+    border-radius: 10px;
+    box-shadow: -10px 10px rgb(12, 160, 49);
+
+    width: 300px;
+    height: 500px;
+}
+
+.section-6 p::first-letter {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 32);
+}
+
+.section-7 img {
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(160, 12, 12);
+
+    width: 300px;
+    height: 500px;
+}
+
+.section-7 p::first-letter {
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 32);
+}
+
